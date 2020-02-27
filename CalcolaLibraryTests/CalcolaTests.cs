@@ -23,5 +23,5 @@ namespace CalcolaLibraryTests
             double somma_ricevuta = CalcolaLibrary.Calcola.SommaMonete(monete);
             Assert.AreEqual(somma_aspettata, somma_ricevuta);
         }
-    }
+    } 
 }
