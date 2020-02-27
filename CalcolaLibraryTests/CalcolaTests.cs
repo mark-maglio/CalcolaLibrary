@@ -22,6 +22,6 @@ namespace CalcolaLibraryTests
             double somma_aspettata = 61;
             double somma_ricevuta = CalcolaLibrary.Calcola.SommaMonete(monete);
             Assert.AreEqual(somma_aspettata, somma_ricevuta);
-        }
-    } 
+        } 
+    }
 }
